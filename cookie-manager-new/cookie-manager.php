@@ -1,11 +1,12 @@
 <?php
 /**
- * Plugin Name: Gabriel Cookie Manager
+ * Plugin Name: Cookie Manager
  * Description: Gerenciador de cookies com popup de consentimento e painel de preferências...
  * Version: 0.2.1 Beta
  * Author: Gabriel Barbosa
  * Author URI: https://github.com/barbxsa
  */
+
 
 if (!defined('ABSPATH')) {
     exit;
