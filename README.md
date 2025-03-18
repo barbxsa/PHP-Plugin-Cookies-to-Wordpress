@@ -9,6 +9,8 @@ Este é um plugin de consentimento de cookies para WordPress, desenvolvido para 
 - **Abas de preferências de cookies**: O popup contém abas para aceitar ou recusar as categorias de cookies, bem como listar cookies específicos com nome e tempo de expiração.
 - **Botões de preferências de cookies**: Inclui botões para aceitar as opções selecionadas, rejeitar todos os cookies (exceto os necessários) e aceitar todos os cookies.
 
+Observação: O plugin está em sua fase inicial e mais funcionalidades serão adicionadas em breve. Entre as melhorias planejadas, destacam-se opções de customização visual do popup, permitindo uma maior personalização de acordo com a identidade visual do seu site. Fique atento às atualizações!
+
 ## Instalação
 
 ### 1. Baixar o Plugin
