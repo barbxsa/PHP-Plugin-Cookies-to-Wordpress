@@ -1,0 +1,282 @@
+/* Popup Politica de Cookies */
+.caixa-input input[type=checkbox]{
+    outline: none;
+    position: relative;
+    z-index: 1;
+    margin: 2px;
+    padding: 0;
+    cursor: pointer;
+    width: 48px;
+    height: 24px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.caixa-input input[type=checkbox]::before, .caixa-input input[type=checkbox]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: left .15s cubic-bezier(.25, .8, .25, .1),transform .15s ease-in;
+}
+
+.caixa-input input[type=checkbox]::before {
+    background-color: #ccc;
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+}
+
+.caixa-input input[type=checkbox]::after {
+    margin: 2px 0 0 2px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.caixa-input input[type=checkbox]:checked::before {
+    background-color: #0f90dc;
+}
+
+.caixa-input input[type=checkbox]:checked::after {
+    left: 24px;
+}
+
+.caixa-input input[type=checkbox]:not([disabled]):active::after {
+    transform: scale(1.15, 0.85);
+}
+
+.caixa-input input[type=checkbox]:disabled::before {
+     background-color: #0f90dc !important;
+}
+
+.caixa-input input[type=checkbox]:disabled::after {
+     background-color: #dcd8d8 !important;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content.current{
+    display: block;
+}
+
+ul.lista-abas-cookies{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 5px 0 30px;
+}
+
+ul.lista-abas-cookies li{
+    border-bottom: 1px solid #f0f0f0c2;
+    text-align: center;
+    width: 33%;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.15s linear;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #082754;
+}
+
+ul.lista-abas-cookies li a{
+    text-decoration: none;
+    color: #082754;
+}
+
+ul.lista-abas-cookies li:hover{
+    border-bottom: 2px solid #082754;
+}
+
+ul.lista-abas-cookies li.current{
+    border-bottom: 2px solid #152a73;
+}
+
+.caixa-checked-cookies {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-caixa-checked h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #082754;
+}
+
+.conteudo-caixa-checked p {
+    font-size: 13px;
+    line-height: 1.4em;
+}
+
+.btns-cookies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btns-cookies button {
+    width: 50%;
+    background: #082754;
+    border: none;
+    margin: 5px 0;
+    color: #fff;
+    padding: 8px 5px;
+    border: 1px solid #fefe;
+    transition: 0.3s linear
+}
+
+.btns-cookies button:hover{
+    background: #fff;
+    color: #082754;
+    border: 1px solid #082754;
+}
+
+.btns-cookies button:first-child {
+    width: 100%;
+}
+
+ul#cookieInfoList{
+    list-style: none;
+    padding-left: 0;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+ul#cookieInfoList::-webkit-scrollbar {
+  width: 10px;
+}
+
+ul#cookieInfoList::-webkit-scrollbar-track {
+  background: #dedede;
+}
+
+ul#cookieInfoList::-webkit-scrollbar-thumb{
+  background-color: #082754;
+  border-radius: 20px;
+}
+
+ul#cookieInfoList li strong{
+    color: #082754;
+    font-size: 15px;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+#cookieInfoList li{
+    padding: 5px 0;
+    border-bottom: 1px solid #0e2753;
+}
+
+#cookieInfoList{
+    font-size: 14px;
+}
+
+#modal_gerenciar_cookies .modal-header h5.modal-title{
+    color: #082754;
+    font-size: 18px;
+}
+
+#tab-2 p{
+    border-bottom: 1px solid #435679;
+}
+
+#cookieManagerModal p{
+    font-size: 14px;
+}
+
+.contentsimpletexto h3 {
+    color: #0d2b75;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fixed-cookie {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 3em;
+    left: 2em;
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9;
+    align-content: center;
+    box-shadow: 0px 0px 1.2px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+button.btn-close {
+    background: none;
+    border: none;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 1.75rem auto;
+    max-width: 500px;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 3.5rem);
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
