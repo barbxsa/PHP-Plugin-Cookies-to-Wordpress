@@ -42,7 +42,7 @@ Se você quiser contribuir para o desenvolvimento deste plugin, siga as etapas a
 
 ## Contato
 
-Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou enviar um e-mail para <a href="mailto:aopgabriel@gmail.com">aopgabriel@gmail.com</a> .
+Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou enviar um e-mail para <a href="mailto:aopgabriel@gmail.com">aopgabriel@gmail.com</a>.
 
 ---
 
