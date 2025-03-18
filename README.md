@@ -21,7 +21,7 @@ Após o upload do plugin, vá até a seção "Plugins" no painel de administraç
 
 ## Como Usar
 
-- **Configuração do Popup**: Após ativar o plugin, você poderá acessar as configurações na seção de "Configurações > Cookie Consent" no painel do WordPress. Aqui você pode personalizar a aparência do popup, as categorias de cookies e os comportamentos de consentimento.
+- **Configuração do Popup**: Após ativar o plugin, você poderá acessar as configurações na seção de "Cookie Manager" no painel do WordPress. Aqui você pode personalizar as categorias de cookies e os comportamentos de consentimento e as descrições dos cookies.
   
 - **Aceitação de Cookies**: O popup será exibido para os usuários assim que eles entrarem no seu site. Eles poderão aceitar ou recusar as categorias de cookies de acordo com as suas preferências.
 
@@ -37,14 +37,11 @@ Se você quiser contribuir para o desenvolvimento deste plugin, siga as etapas a
 4. Envie para o repositório remoto (`git push origin minha-nova-funcionalidade`).
 5. Abra uma pull request.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Contato
 
-Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou enviar um e-mail para [seu-email@dominio.com].
+Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou enviar um e-mail para <a href="mailto:aopgabriel@gmail.com">aopgabriel@gmail.com</a> .
 
 ---
 
-Feito com 💻 por [Seu Nome]
+Feito com 💻 por Gabriel Barbosa
