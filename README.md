@@ -23,7 +23,7 @@ Após o upload do plugin, vá até a seção "Plugins" no painel de administraç
 
 ## Como Usar
 
-- **Configuração do Popup**: Após ativar o plugin, você poderá acessar as configurações na seção de "Cookie Manager" no painel do WordPress. Aqui você pode personalizar as categorias de cookies e os comportamentos de consentimento e as descrições dos cookies.
+- **Configuração do Popup**: Após ativar o plugin, você poderá acessar as configurações na seção de "Cookie Manager" no painel do WordPress. Aqui você pode personalizar as categorias de cookies e os comportamentos de consentimento e suas descrições.
   
 - **Aceitação de Cookies**: O popup será exibido para os usuários assim que eles entrarem no seu site. Eles poderão aceitar ou recusar as categorias de cookies de acordo com as suas preferências.
 
