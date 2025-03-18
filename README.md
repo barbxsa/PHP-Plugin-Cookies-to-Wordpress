@@ -1,69 +1,50 @@
-Cookie Categorization Plugin for WordPress
-Este plugin foi desenvolvido para ajudar na categorização de cookies em seu site WordPress, facilitando o gerenciamento e a conformidade com leis de privacidade, como o GDPR e a LGPD.
+# Cookie Manager Plugin for WordPress
 
-Descrição
-O Cookie Categorization Plugin permite que você categorize os cookies usados em seu site, proporcionando uma maneira prática de gerenciar as permissões e informações dos usuários. Ele também oferece a possibilidade de criar uma política de cookies personalizada, melhorando a transparência e o controle sobre os dados dos visitantes.
+Este é um plugin de consentimento de cookies para WordPress, desenvolvido para fornecer uma maneira simples de gerenciar o consentimento dos usuários em relação aos cookies. O plugin permite que os visitantes do site aceitem ou rejeitem diferentes categorias de cookies, garantindo a conformidade com as leis de privacidade, como o GDPR.
 
-Funcionalidades
-Categorização de Cookies: Organize os cookies do seu site em categorias como "Essenciais", "Desempenho", "Funcionalidade" e "Publicidade".
+## Funcionalidades
 
-Gestão de Permissões: Permite que os usuários optem por permitir ou bloquear cookies conforme suas preferências.
+- **Gestão de consentimento de cookies**: O plugin permite que os usuários aceitem ou recusem cookies em várias categorias, como "Necessário", "Desempenho", "Funcional" e "Publicidade".
+- **Popup de cookies personalizável**: Exibe um popup que solicita o consentimento do usuário para o uso de cookies, com a opção de personalizar as categorias.
+- **Abas de preferências de cookies**: O popup contém abas para aceitar ou recusar as categorias de cookies, bem como listar cookies específicos com nome e tempo de expiração.
+- **Botões de preferências de cookies**: Inclui botões para aceitar as opções selecionadas, rejeitar todos os cookies (exceto os necessários) e aceitar todos os cookies.
 
-Conformidade com Leis de Privacidade: Ajuda na conformidade com regulamentos como o GDPR (Regulamento Geral de Proteção de Dados) e a LGPD (Lei Geral de Proteção de Dados).
+## Instalação
 
-Exibição de Política de Cookies: Exibe uma política de cookies personalizada para informar os usuários sobre como seus dados são coletados e utilizados.
+### 1. Baixar o Plugin
 
-Interface de Usuário Simples: Fácil de usar com opções de configuração intuitivas para o administrador do site.
+Você pode baixar o plugin diretamente do repositório do GitHub ou fazer o upload manual do arquivo para o diretório `wp-content/plugins` do seu site WordPress.
 
-Instalação
-Faça o download do plugin.
+### 2. Ativar o Plugin
 
-No painel de administração do WordPress, vá até Plugins > Adicionar Novo.
+Após o upload do plugin, vá até a seção "Plugins" no painel de administração do WordPress e ative o "Cookie Manager".
 
-Clique em Carregar Plugin e selecione o arquivo ZIP do plugin.
+## Como Usar
 
-Clique em Instalar Agora e depois em Ativar.
+- **Configuração do Popup**: Após ativar o plugin, você poderá acessar as configurações na seção de "Configurações > Cookie Consent" no painel do WordPress. Aqui você pode personalizar a aparência do popup, as categorias de cookies e os comportamentos de consentimento.
+  
+- **Aceitação de Cookies**: O popup será exibido para os usuários assim que eles entrarem no seu site. Eles poderão aceitar ou recusar as categorias de cookies de acordo com as suas preferências.
 
-Configuração
-Após ativar o plugin, você pode acessar as configurações em Configurações > Cookie Categorization. Na página de configurações, você poderá:
+- **Gerenciamento de Cookies**: O usuário poderá gerenciar suas preferências de cookies a qualquer momento, acessando as configurações através das abas disponíveis no popup.
 
-Adicionar ou editar as categorias de cookies.
+## Contribuições
 
-Configurar as opções de consentimento de cookies para os usuários.
+Se você quiser contribuir para o desenvolvimento deste plugin, siga as etapas abaixo:
 
-Personalizar a política de cookies exibida no seu site.
+1. Faça um fork deste repositório.
+2. Crie uma branch para suas modificações (`git checkout -b minha-nova-funcionalidade`).
+3. Faça commit das suas modificações (`git commit -m 'Adicionando nova funcionalidade'`).
+4. Envie para o repositório remoto (`git push origin minha-nova-funcionalidade`).
+5. Abra uma pull request.
 
-Definir um link para a política de privacidade do site.
+## Licença
 
-Uso
-Categorizar Cookies
-O plugin permite que você categorize os cookies de acordo com suas funções. As categorias padrão incluem:
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Essenciais: Cookies necessários para o funcionamento básico do site.
+## Contato
 
-Desempenho: Cookies que coletam informações sobre como os visitantes interagem com o site.
+Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou enviar um e-mail para [seu-email@dominio.com].
 
-Funcionalidade: Cookies que lembram preferências do usuário, como idioma ou configurações de layout.
+---
 
-Publicidade: Cookies utilizados para exibir anúncios direcionados aos visitantes.
-
-Você pode adicionar ou editar essas categorias através da interface de configurações.
-
-Consentimento de Cookies
-O plugin exibe uma notificação de consentimento de cookies para os visitantes, permitindo que eles escolham quais categorias de cookies aceitam. Você pode personalizar o texto, o estilo e o comportamento dessa notificação.
-
-Contribuição
-Contribuições são bem-vindas! Se você deseja melhorar o plugin, sinta-se à vontade para abrir um pull request. Ao contribuir, por favor, siga estas diretrizes:
-
-Faça um fork do repositório.
-
-Crie uma branch com sua alteração (git checkout -b minha-alteracao).
-
-Commit suas alterações (git commit -am 'Adiciona nova funcionalidade').
-
-Envie para o repositório (git push origin minha-alteracao).
-
-Abra um pull request no GitHub.
-
-Licença
-Este plugin é licenciado sob a Licença MIT.
+Feito com 💻 por [Seu Nome]
