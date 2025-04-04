@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Cookie Manager - CRT
+ * Plugin Name: Cookie Manager Consent
  * Description: Gerenciador de cookies com popup de consentimento e painel de preferências...
- * Version: 1.0.1 
- * Author: CRT Comunicação
- * Author URI: http://crtpublicidade.com.br/
+ * Version: 0.7.0 Release
+ * Author: Gabriel Barbosa
+ * Author URI: https://github.com/barbxsa
  */
 
 if (!defined('ABSPATH')) {
