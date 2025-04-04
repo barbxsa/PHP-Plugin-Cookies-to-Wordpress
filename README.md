@@ -17,6 +17,9 @@ Observação: O plugin está em sua fase inicial e mais funcionalidades serão a
 
 Você pode baixar o plugin diretamente do repositório do GitHub ou fazer o upload manual do arquivo para o diretório `wp-content/plugins` do seu site WordPress.
 
+### 👉 [Clique aqui para baixar o plugin](https://github.com/barbxsa/PHP-Plugin-Cookies-to-Wordpress/releases/download/1.0/cookie-manager.zip)
+
+
 ### 2. Ativar o Plugin
 
 Após o upload do plugin, vá até a seção "Plugins" no painel de administração do WordPress e ative o "Cookie Manager".
